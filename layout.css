@@ -18,6 +18,12 @@ body {
     grid-gap: 10px;
 }
 
+@media (max-width: 400px) {
+    #c1 {
+        background: red;
+    }
+ }
+
 #c1 {
     grid-column: 2 / 4;
     grid-row: 1;
@@ -32,8 +38,4 @@ body {
     grid-row: 2;
  }
 
- @media (max-width: 400px) {
-    #c1 {
-        background: red;
-    }
- }
+ 
